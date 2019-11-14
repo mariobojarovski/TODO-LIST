@@ -71,10 +71,32 @@ li > button {
   font-weight: 800;
 }
 
+li > input{
+  float: left;
+  position: relative;
+  cursor: pointer;
+  font-size:5px;
+
+}
+
 input {
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 5px;
   min-width: 45%;
   padding: 5px;
   border: 2px solid #B4CA60;
+}
+
+.delStyle {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 2px solid #303b4f;
+  border-radius: 10px;
+  border-top: hidden;
+  margin-bottom: 10px;
+  background: #B4CA60;
 }
