@@ -74,6 +74,7 @@ li > button {
 li > input{
   float: left;
   color:blue;
+  
   position: relative;
   cursor: pointer;
   width: 20px; 

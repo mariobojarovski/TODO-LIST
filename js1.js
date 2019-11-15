@@ -14,8 +14,8 @@ function inputLength() {
 function createListElement() {
     
     var li = document.createElement("li"); // creates an element "li"
-    li.id=l;
-    l++;
+    li.id=i;
+    i++;
     li.appendChild(document.createTextNode(input.value)); //makes text from input field the li text
     ul.appendChild(li); //adds li to ul
     input.value = ""; //Reset text input field
