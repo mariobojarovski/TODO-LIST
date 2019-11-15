@@ -6,7 +6,6 @@ var item = document.getElementsByTagName("li");
 
 // var myArr = [];
  var i = 0;
- var l="a";
 
 function inputLength() {
     return input.value.length;
