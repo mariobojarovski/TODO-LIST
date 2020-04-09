@@ -34,10 +34,6 @@ function createListElement() {
     x.id=i;
     i++;
     console.log('ID', i);
-    // delBtn.index = i;
-    // console.log(delBtn.index);
-    // i++;
-    // myArr.push(i);
 
     function name(elem){
         elem.parentNode.style.backgroundColor = elem.checked ? '#373A28' : '#303B4F'
@@ -47,10 +43,6 @@ function createListElement() {
 
     
     function deleteListItem(element) {
-        // console.log("before pop", i, myArr);
-        // myArr.pop(i);
-        // console.log("after pop", i, myArr);
-       //  console.log("X")
         element.parentNode.removeChild(element);
     }
 }
@@ -65,8 +57,6 @@ function addTaskOnKeyPress(event){
     if (event.keyCode === 13 && inputLength() > 0) {
         event.preventDefault();
         createListElement();
-        //document.getElementById("delBtn").onclick;
-        //console.log(event.keyCode);
     }
 }
 
