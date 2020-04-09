@@ -1,0 +1,75 @@
+body{
+    background: #273143;
+  }
+  #mine_wripper{
+    width: 900px;
+    margin: auto;
+  }
+  
+  nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  
+  header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 55px;
+    font-weight: normal;
+    text-transform: capitalize;
+    color: #B4CA60;
+    text-align: center;
+  }
+  
+  #mine_title{
+    display: inline-block;
+  }
+  
+  nav ul{
+    list-style-type: none;
+  }
+  
+  #logo{
+    width: 100px;
+    height: 100px;
+  }
+  
+  #logo, header h1{
+    display: inline-block;
+    margin-bottom: 0px;
+  }
+  
+  header h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    color: #B4CA60;
+  }
+  nav{
+    display: inline-block;
+    width:740px;
+    text-align: right;
+  }
+  
+  nav ul{
+    list-style-type: none;
+  }
+  
+  nav li{
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  nav a{
+    font-size: 1.3em;
+    color: #B4CA60;
+    padding-bottom: 3px;
+    text-decoration: none;
+  }
+  
+  nav a:hover{
+    color:ff00c1;
+    border-bottom: 3px solid #a300ff;
+  }
+  
